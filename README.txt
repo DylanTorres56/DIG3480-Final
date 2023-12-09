@@ -6,3 +6,6 @@ an overhead view of the entire map. This includes the main character, John Lemon
 spotlight by his feet for better readability. The enemies are also visible on the mini-map, but to maintain a consistent
 sense of challenge with the original version, these enemies do not feature a spotlight tracking their position. The post-
 processing effects apply to the second camera as well as the first, making the visual style more consistent overall.
+
+GITHUB REPOSITORY LINK: https://github.com/DylanTorres56/DIG3480-Final/
+YouTube Link: https://youtu.be/sbkru_nPCtg
