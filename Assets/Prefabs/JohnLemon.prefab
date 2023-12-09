@@ -1249,9 +1249,9 @@ GameObject:
   - component: {fileID: 5466650964962888850}
   - component: {fileID: 2735484489722214926}
   - component: {fileID: 4342307201088436274}
-  - component: {fileID: 467410621735371173}
   - component: {fileID: 2084205470}
   - component: {fileID: 2084205469}
+  - component: {fileID: 1740145825104028766}
   m_Layer: 0
   m_Name: JohnLemon
   m_TagString: Untagged
@@ -1328,19 +1328,6 @@ CapsuleCollider:
   m_Height: 1.4
   m_Direction: 1
   m_Center: {x: 0, y: 0.7, z: 0}
---- !u!114 &467410621735371173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5466650964955610970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46583be7eb12aaf468a74a018dffd102, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turnSpeed: 20
 --- !u!82 &2084205470
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1445,6 +1432,20 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5466650964955610970}
   m_Enabled: 1
+--- !u!114 &1740145825104028766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5466650964955610970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46583be7eb12aaf468a74a018dffd102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turnSpeed: 20
+  sprintSpeed: 1
 --- !u!1 &5466650964955610972
 GameObject:
   m_ObjectHideFlags: 0
